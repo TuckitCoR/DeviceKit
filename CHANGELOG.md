@@ -1,5 +1,75 @@
 # Changelog
 
+## Version 5.7.0
+
+Releasedate: 2025-09-12
+
+```ruby
+pod 'DeviceKit', '~> 5.7'
+```
+
+### New September 2025 devices
+
+This version adds support for the iPhone 17 series, Apple Watch Ultra 3 and Apple Watch Series 11:
+
+| Device | Case value |
+| --- | --- |
+| iPhone 17 | `Device.iPhone17` |
+| iPhone 17 Pro | `Device.iPhone17Pro` |
+| iPhone 17 Pro Max | `Device.iPhone17ProMax` |
+| iPhone Air | `Device.iPhoneAir` |
+| Apple Watch Ultra 3 | `Device.appleWatchUltra3` |
+| Apple Watch Series 11 42mm | `Device.appleWatchSeries11_42mm` |
+| Apple Watch Series 11 46mm | `Device.appleWatchSeries11_46mm` |
+
+### Bug fixes
+
+- Missing device identifiers for Apple Watch Series 9 were added.
+- Docs for Apple Watch Series 9 was updated to include specs links
+- Fixed Apple Pencil support for iPad Mini (A17 Pro).
+
+Thanks to all the contributers of this release!
+- [Jager-yoo](https://github.com/Jager-yoo)
+- [iDevid](https://github.com/iDevid)
+
+## Version 5.6.0
+
+Releasedate: 2025-03-27
+
+```ruby
+pod 'DeviceKit', '~> 5.6'
+```
+
+### New October 2024 devices
+
+This version adds support for the devices announced in October 2024: ([#429](https://github.com/devicekit/DeviceKit/pull/429))
+
+| Device | Case value |
+| --- | --- |
+| iPad Mini (A17 Pro) | `Device.iPadMiniA17Pro` |
+
+### New February 2025 devices
+
+This version adds support for the devices announced in February 2025: ([#436](https://github.com/devicekit/DeviceKit/pull/436))
+
+| Device | Case value |
+| --- | --- |
+| iPhone 16e | `Device.iPhone16e` |
+
+### New March 2025 devices
+
+This version adds support for the devices announced in March 2025: ([#436](https://github.com/devicekit/DeviceKit/pull/436))
+
+| Device | Case value |
+| --- | --- |
+| iPad (A16) | `Device.iPadA16` |
+| iPad Air 11-inch (M3) | `Device.iPadAir11M3` |
+| iPad Air 13-inch (M3) | `Device.iPadAir13M3` |
+
+### Fixes
+
+- Fix iPhone 16 Plus PPI. ([#423](https://github.com/devicekit/DeviceKit/pull/423))
+
 ## Version 5.5.0
 
 Releasedate: 2024-09-22
